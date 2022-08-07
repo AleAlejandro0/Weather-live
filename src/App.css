@@ -1,9 +1,3 @@
-html{
-  overflow: hidden;
-}
-::-webkit-scrollbar{
-  display: none;
-}
 body{
   margin: 0;
 }
@@ -18,6 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width: 100wv;
 }
 .frame{
     border: 2px rgb(212, 210, 210) solid;
@@ -46,6 +41,13 @@ main{
 p{
  color: rgb(114, 206, 206);
  padding-left: 0.2rem;
+}
+.general_containe{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ position: relative;
 }
 img{
   position: absolute;
@@ -86,12 +88,6 @@ li{
   list-style: none;
   text-align: center;
 }
-.general_containe{
- display: flex;
- justify-content: center;
- align-items: center;
- flex-direction: column;
-}
 .loading_icon{
   height: 300px;
   margin-left: 0;
@@ -108,6 +104,7 @@ li{
 .frame{
   height: 450px;
   width: 270px;
+  padding-left: 2rem;
 }
 h1{
   font-size: 35px;
@@ -117,26 +114,26 @@ h2{
 }
 .temperature_shown{
   font-size: 30px;
-  padding-left: 43%;
+  /* padding-left: 43%; */
 }
 img{
-  margin-left: -18.5rem;
-  margin-top: -.5rem;
-  padding-right: 50rem;
+  margin-top: -2rem;
+  margin-left: -19rem;
 }
 p{
-  margin-top: 5.2rem;
-  margin-left: -2.5rem;
+  margin-top: 5rem;
+  margin-left: -3.2rem;
 }
 ul{
   padding-left: 2.5rem;
 }
 main{
-  width: 380px;
+  width: 300px;
 }
 .temperature_shown{
   font-size: 60px;
-  padding-left: 35%;
+  padding-left: 42%;
+  padding-top: 2rem;
 }
 .tittle_loading{
   font-size: 30px;
@@ -149,11 +146,11 @@ main{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 50rem
 }
 /* Button */ 
 .main_button{
-  margin-left: calc(60% - 60px);
+  margin-left: calc(70% - 60px);
+  margin-top: 1rem;
   width: 100px;
   height: 40px;
   border-radius: 5%;
