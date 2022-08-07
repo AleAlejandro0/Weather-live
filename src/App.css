@@ -4,6 +4,7 @@ body{
 .tittle_loading{
   color: white;
   font-size: 35px;
+  margin-bottom: 35rem;
 }
 .general_container{
     display: flex;
@@ -32,18 +33,17 @@ h2{
 .temperature_shown{
    font-size: 100px;
    padding-left: 43%;
-
 }
 main{
-    width: 450px;
+  width: 450px;
 }
 p{
  color: rgb(114, 206, 206);
- padding-left: 0.5rem;
+ padding-left: 0.2rem;
 }
 img{
   position: absolute;
-  margin-left: -24.5rem;
+  margin-left: -25.5rem;
   padding-top: -5rem;
   margin-top: -.5rem;
 }
@@ -90,12 +90,70 @@ li{
   height: 300px;
   margin-left: 0;
 }
-.tittle_loading{
-  margin-bottom: 35rem;
-}
 li{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* RESPONSIVE MOBILE DESING */
+
+@media (max-width: 550px) {
+.frame{
+  height: 450px;
+  width: 270px;
+}
+h1{
+  font-size: 35px;
+}
+h2{
+  font-size: 25px;
+}
+.temperature_shown{
+  font-size: 30px;
+  padding-left: 43%;
+}
+img{
+  margin-left: -18.5rem;
+  margin-top: -.5rem;
+  padding-right: 50rem;
+}
+p{
+  margin-top: 5.2rem;
+  margin-left: -2.5rem;
+}
+main{
+  width: 380px;
+}
+.temperature_shown{
+  font-size: 60px;
+  padding-left: 35%;
+}
+.tittle_loading{
+  font-size: 30px;
+  margin-left:  calc(50% - 195px);
+  margin-bottom: 25rem;
+}
+.loading_icon{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50rem
+}
+/* Button */ 
+.main_button{
+  margin-left: calc(60% - 60px);
+  width: 100px;
+  height: 40px;
+  border-radius: 5%;
+}
+/* EXTRA INFO */ 
+.second_section {
+  margin-top: -10px;
+}
+li {
+  padding-top: 0.8rem;
+}
+}
