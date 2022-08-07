@@ -157,12 +157,12 @@ main{
   margin-top: -10px;
 }
 ul{
-  padding: 10px;
+  padding-left: 3px;
 }
 li {
   padding-top: 0.8rem;
 }
 .li_left{
- margin-left: 2rem;
+ margin-left: 1.5rem;
 }
 }
