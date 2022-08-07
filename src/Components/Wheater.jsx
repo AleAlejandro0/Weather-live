@@ -60,11 +60,11 @@ const Wheater = ({lat, lon}) => {
          </div>
        <div className='second_section'>
            <ul className='list'>
-             <li><WiCloudy size='35px' color='rgb(114, 206, 206)'/> Cloudiness: {weather?.clouds.all}%</li>
-             <li><WiWindy size='35px' color='rgb(114, 206, 206)'/> Wind speed: {weather?.wind.speed} m/s</li>
+             <li className='li_left'><WiCloudy size='35px' color='rgb(114, 206, 206)'/> Cloudiness: {weather?.clouds.all}%</li>
+             <li className='li_left'><WiWindy size='35px' color='rgb(114, 206, 206)'/> Wind speed: {weather?.wind.speed} m/s</li>
            </ul>
            <ul>
-             <li><WiSprinkle size='35px' color='rgb(114, 206, 206)'/>Humidity: {weather?.main.humidity}%</li>
+             <li className='li_right'><WiSprinkle size='35px' color='rgb(114, 206, 206)'/>Humidity: {weather?.main.humidity}%</li>
              <li><WiThermometerExterior size='35px' color='rgb(114, 206, 206)'/> Pressure: {weather?.main.pressure} mbar</li>
             </ul>
        </div>

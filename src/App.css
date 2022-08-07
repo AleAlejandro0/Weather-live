@@ -124,9 +124,6 @@ p{
   margin-top: 5rem;
   margin-left: -3.2rem;
 }
-ul{
-  padding-left: 2.5rem;
-}
 main{
   width: 300px;
 }
@@ -159,7 +156,13 @@ main{
 .second_section {
   margin-top: -10px;
 }
+ul{
+  padding: 10px;
+}
 li {
   padding-top: 0.8rem;
+}
+.li_left{
+ margin-left: 2rem;
 }
 }
